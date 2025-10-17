@@ -57,6 +57,7 @@ button {
     width: 100%;
     padding: 8px;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -71,7 +72,14 @@ button:hover {
 
 }
 
-#mensagemErro{
+#mensagemErro {
     margin-top: 10px;
     text-align: center;
+}
+
+a {
+    text-align: center;
+    margin: 10px;
+    padding-left: 55px;
+    font-size: 15px;
 }
