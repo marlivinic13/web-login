@@ -1,0 +1,77 @@
+* {
+    margin: 0; /*zera a margem da tela do navegador*/
+    padding: 0;/*zera o espaçamento interno do navegador*/
+    box-sizing: border-box; /*informa que o tamanho da "caixa" está incluso com a borda - se o navegador tiver 600px e a borda 10, o tamanho entendido será de 610px - é como medir uma caixa do externo de uma borda até a outra*/
+}
+
+body {
+    background-image: url(assets/bgGradiente.jpg); /*background será definido como uma imagem, foi definido pelo caminho assets/ e o nome do arquivo*/
+    display: flex; /*torna o display flexível para ajustar os conteúdos*/
+    justify-content: center; /*alinhar itens horizontalmente*/
+    align-items: center;/*alinhar itens verticalmente*/
+    height: 100vh;/*torna a altura flexível para ocupar 100% da página, 100 viewport height*/
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgb(177, 36, 209);
+    width: 600px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: rgb(152, 25, 181);
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px rgb(74, 70, 75);
+}
+
+button:hover {
+    background-color: rgb(130, 12, 156);
+    box-shadow: 1px 3px 7px rgb(215, 204, 218);
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(51, 30, 51)
+}
+
+input[type="checkbox"] {
+    /*display: flex;
+    justify-content: space-around;*/
+    margin: 0px 10px 0px 10px;
+}
+
+input[type="radio"] {
+    /*display: flex;
+    justify-content: space-around;*/
+    margin: 0px 10px 0px 10px;
+}

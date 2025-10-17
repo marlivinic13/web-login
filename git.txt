@@ -1,0 +1,17 @@
+echo - criar um read-me 
+# - título 
+>> - criar arquivo readme
+
+git init - inicializar o repositório no git
+
+git status
+
+git add - adicionar arquivos no github
+
+git add . = todos os arquivos 
+
+git branch -M main - criar uma ramificação de versão chamado main | ao criar um branch fazer um comentário 
+
+git commit -m ""= criar um commit com uma mensagem 
+
+git add origin urlRepositório = link à  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Cadastro</h1>
+            <form action="" id="formCadastro"> <!--por padrão o action default envia os dados para a url -->
+
+                <label for="nome">nome</label>
+                <input type="text" name="" id="nome">
+
+                <label for="email">E-mail</label>
+                <input type="text" name="" id="email">
+
+                <label for="dataNasc">Data de nascimento</label>
+                <input type="date" name="" id="dataNasc">
+
+                <label for="nivel">Escolaridade</label>
+                <select id="escolaridade">
+                    <option value="defaul" class="op"></option>
+                    <option value="medio" class="op">Ensino Médio</option>
+                    <option value="graduacao" class="op">Graduacao</option>
+                    <option value="posGraduacao" class="op">Pós-Graduacao</option>
+                    <option value="mestrado" class="op">Mestrado</option>
+                </select>
+
+                <label for="genero">Genero</label>
+                <input type="radio" name="genero" id="masculino" value="masculino">Masculino
+                <input type="radio" name="genero" id="feminino" value="feminino">Feminino
+
+                <label for="linguagensProg">Linguagens de Programação</label>
+                <input type="checkbox" name="habilidade" id="python" value="python"> Python
+                <input type="checkbox" name="habilidade" id="c#" value="c#">C#
+                <input type="checkbox" name="habilidade" id="java" value="java"> Java
+                <input type="checkbox" name="habilidade" id="javaScript" value="javaScript"> javaScript
+                <input type="checkbox" name="habilidade" id="php" value="php">php
+
+                <button type="submit" id="btnCadastro" onclick="salvarCadastro(event)" >Cadastrar</button>
+
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
